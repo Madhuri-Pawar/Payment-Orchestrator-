@@ -14,26 +14,26 @@ It is intentionally **documentation-first**. There is no production payment code
 
 If you are **not a software engineer**, read these first:
 
-1. [The Business Problem](01-business-problem.md)
-2. [How the Solution Works](02-how-the-solution-works.md)
-3. [A Payment's Journey](03-payment-journey.md)
-4. [When Things Go Wrong](04-when-things-go-wrong.md)
-5. [Business Value](05-business-value.md)
-6. [Glossary](glossary.md)
+1. [The Business Problem](payment-orchestrator-case-study/01-business-problem.md)
+2. [How the Solution Works](payment-orchestrator-case-study/02-how-the-solution-works.md)
+3. [A Payment's Journey](payment-orchestrator-case-study/03-payment-journey.md)
+4. [When Things Go Wrong](payment-orchestrator-case-study/04-when-things-go-wrong.md)
+5. [Business Value](payment-orchestrator-case-study/05-business-value.md)
+6. [Glossary](payment-orchestrator-case-study/glossary.md)
 
 If you are an **engineer / architect**, continue into:
 
-- [High-Level Design](technical/HLD.md)
-- [Low-Level Design](technical/LLD.md)
-- [Data Model](technical/data-model.md)
-- [Payment State Machine](technical/state-machine.md)
-- [API Design](technical/API-design.md)
-- [Reliability Strategy](technical/reliability.md)
-- [Security Strategy](technical/security.md)
-- [Observability](technical/observability.md)
-- [Trade-offs](technical/trade-offs.md)
-- [Decision Log](technical/decision-log.md)
-- [Interview Discussion](technical/interview-discussion.md)
+- [High-Level Design](payment-orchestrator-case-study/technical/HLD.md)
+- [Low-Level Design](payment-orchestrator-case-study/technical/LLD.md)
+- [Data Model](payment-orchestrator-case-study/technical/data-model.md)
+- [Payment State Machine](payment-orchestrator-case-study/technical/state-machine.md)
+- [API Design](payment-orchestrator-case-study/technical/API-design.md)
+- [Reliability Strategy](payment-orchestrator-case-study/technical/reliability.md)
+- [Security Strategy](payment-orchestrator-case-study/technical/security.md)
+- [Observability](payment-orchestrator-case-study/technical/observability.md)
+- [Trade-offs](payment-orchestrator-case-study/technical/trade-offs.md)
+- [Decision Log](payment-orchestrator-case-study/technical/decision-log.md)
+- [Interview Discussion](payment-orchestrator-case-study/technical/interview-discussion.md)
 
 ---
 
@@ -237,7 +237,7 @@ Examples:
 - Payment stuck in an intermediate state
 - Provider says SUCCESS while the internal system says UNKNOWN
 
-See the full walkthrough in [When Things Go Wrong](04-when-things-go-wrong.md).
+See the full walkthrough in [When Things Go Wrong](payment-orchestrator-case-study/04-when-things-go-wrong.md).
 
 ---
 
@@ -272,25 +272,25 @@ The design can be understood in four layers:
 
 What problem are we solving?
 
-→ [Business Problem](01-business-problem.md)
+→ [Business Problem](payment-orchestrator-case-study/01-business-problem.md)
 
 ### Solution layer
 
 What should the platform do?
 
-→ [How the Solution Works](02-how-the-solution-works.md)
+→ [How the Solution Works](payment-orchestrator-case-study/02-how-the-solution-works.md)
 
 ### Architecture layer
 
 How are the components connected?
 
-→ [High-Level Design](technical/HLD.md)
+→ [High-Level Design](payment-orchestrator-case-study/technical/HLD.md)
 
 ### Engineering layer
 
 How exactly do state, data, APIs, retries and failures work?
 
-→ [Technical Deep Dive](technical/LLD.md)
+→ [Technical Deep Dive](payment-orchestrator-case-study/technical/LLD.md)
 
 ---
 
@@ -322,26 +322,26 @@ It does **not** claim to process real payments or represent a production deploym
 
 ### For everyone
 
-- [Business Problem](01-business-problem.md)
-- [How the Solution Works](02-how-the-solution-works.md)
-- [Payment Journey](03-payment-journey.md)
-- [Failure Scenarios](04-when-things-go-wrong.md)
-- [Business Value](05-business-value.md)
-- [Glossary](glossary.md)
+- [Business Problem](payment-orchestrator-case-study/01-business-problem.md)
+- [How the Solution Works](payment-orchestrator-case-study/02-how-the-solution-works.md)
+- [Payment Journey](payment-orchestrator-case-study/03-payment-journey.md)
+- [Failure Scenarios](payment-orchestrator-case-study/04-when-things-go-wrong.md)
+- [Business Value](payment-orchestrator-case-study/05-business-value.md)
+- [Glossary](payment-orchestrator-case-study/glossary.md)
 
 ### For engineers
 
-- [HLD](technical/HLD.md)
-- [LLD](technical/LLD.md)
-- [Data Model](technical/data-model.md)
-- [State Machine](technical/state-machine.md)
-- [API Design](technical/API-design.md)
-- [Reliability](technical/reliability.md)
-- [Security](technical/security.md)
-- [Observability](technical/observability.md)
-- [Trade-offs](technical/trade-offs.md)
-- [Decision Log](technical/decision-log.md)
-- [Interview Discussion](technical/interview-discussion.md)
+- [HLD](payment-orchestrator-case-study/technical/HLD.md)
+- [LLD](payment-orchestrator-case-study/technical/LLD.md)
+- [Data Model](payment-orchestrator-case-study/technical/data-model.md)
+- [State Machine](payment-orchestrator-case-study/technical/state-machine.md)
+- [API Design](payment-orchestrator-case-study/technical/API-design.md)
+- [Reliability](payment-orchestrator-case-study/technical/reliability.md)
+- [Security](payment-orchestrator-case-study/technical/security.md)
+- [Observability](payment-orchestrator-case-study/technical/observability.md)
+- [Trade-offs](payment-orchestrator-case-study/technical/trade-offs.md)
+- [Decision Log](payment-orchestrator-case-study/technical/decision-log.md)
+- [Interview Discussion](payment-orchestrator-case-study/technical/interview-discussion.md)
 
 ---
 
@@ -367,4 +367,4 @@ Security & Observability
 Trade-offs
 ```
 
-**Next:** [The Business Problem →](01-business-problem.md)
+**Next:** [The Business Problem →](payment-orchestrator-case-study/01-business-problem.md)
